@@ -21,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="O0Q-2x-h4P">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJo-wQ-E2o">
-                                        <mutableString key="text">Para poder utilizar la App Glory Days, necesita permisos para acceder a tu carrete de fotos, cámara, micrófono para reconocimiento de voz... Haciendo click en el botón siguiente, te pediremos los permisos y deberías aceptarlos, pero si cambias de opición, puedes quitar esos permisos en el menú ajustes... 😉</mutableString>
+                                        <string key="text">Para poder utilizar la App Glory Days, necesita permisos para acceder a tu carrete de fotos, cámara, micrófono para reconocimiento de voz... Haciendo click en el botón siguiente, te pediremos los permisos y deberías aceptarlos, pero si cambias de opición, puedes quitar esos permisos en el menú ajustes... 😉</string>
                                         <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="19"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -78,7 +78,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="170" height="170"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="afw-qy-4rO"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="afw-qy-4rO"/>
                                     </subviews>
                                 </view>
                                 <constraints>
@@ -96,7 +96,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Buscar imagen" translatesAutoresizingMaskIntoConstraints="NO" id="ADj-OQ-cyS">
+                                <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Buscar imagen" showsSearchResultsButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ADj-OQ-cyS">
                                     <textInputTraits key="textInputTraits"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="searchField.textColor">
